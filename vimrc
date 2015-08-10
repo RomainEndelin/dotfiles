@@ -405,7 +405,9 @@ autocmd Filetype todo call SetDos()
 " {{{2 Ctrlspace
 " Hide the buffer list
 set hidden
-let g:ctrlspace_default_mapping_key = ","
+let g:CtrlSpaceDefaultMappingKey = ","
+
+let g:CtrlSpaceFileEngine = "file_engine_linux_amd64"
 " let g:ctrlspace_use_mouse_and_arrows = 1
 
 " {{{2 Python-mode
