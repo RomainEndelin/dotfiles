@@ -1,0 +1,28 @@
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.tmux.conf: tmux.conf
+    ~/.vim: vim/
+    ~/.vimrc: vimrc
+    ~/.ackrc: ackrc
+    ~/.Xresources: Xresources
+    ~/.xinitrc: xinitrc
+    ~/.xbindkeysrc: xbindkeysrc
+    ~/.dircolors: dircolors
+    ~/.tmux: tmux/
+    ~/.ncmpcpp: ncmpcpp/
+    ~/.config/awesome: awesome/
+    ~/.config/termite: termite/
+    ~/.config/base16-shell: base16-shell/
+    ~/.zprezto: zprezto/
+    ~/.zpreztorc: zprezto/runcoms/zpreztorc
+    ~/.zlogin: zprezto/runcoms/zlogin
+    ~/.zlogout: zprezto/runcoms/zlogout
+    ~/.zprofile: zprezto/runcoms/zprofile
+    ~/.zshenv: zprezto/runcoms/zshenv
+    ~/.zshrc: zprezto/runcoms/zshrc
+    ~/.bin: bin/
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
