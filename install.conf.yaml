@@ -8,13 +8,22 @@
     ~/.ackrc: ackrc
     ~/.Xresources: Xresources
     ~/.xinitrc: xinitrc
+    ~/.xsession: xsession
     ~/.xbindkeysrc: xbindkeysrc
     ~/.dircolors: dircolors
+    ~/.mosquitto.conf: mosquitto.conf
+    ~/.rvmrc: rvmrc
     ~/.tmux: tmux/
+    ~/.mpd: mpd/
+    ~/.i3: i3/
     ~/.ncmpcpp: ncmpcpp/
+    ~/.fonts: fonts/
     ~/.config/awesome: awesome/
     ~/.config/termite: termite/
     ~/.config/base16-shell: base16-shell/
+    ~/.config/btsync: btsync/
+    ~/.config/dunst: dunst/
+    ~/.gitconfig: gitconfig
     ~/.zprezto: zprezto/
     ~/.zpreztorc: zprezto/runcoms/zpreztorc
     ~/.zlogin: zprezto/runcoms/zlogin

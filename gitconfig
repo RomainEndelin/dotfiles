@@ -1,0 +1,15 @@
+[user]
+	name = Romain Endelin
+	email = romain@endelin.fr
+[core]
+	askpass = 
+[push]
+	default = simple
+[github]
+	user = RomainEndelin
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool

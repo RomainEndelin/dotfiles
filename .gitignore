@@ -3,3 +3,5 @@ vim/bundle
 vim/autoload
 vim/bundle
 awesome/wallpapers
+mpd/*
+!mpd/mpd.conf
