@@ -185,9 +185,10 @@ Plug 'LaTeX-Box-Team/LaTeX-Box', {'for': ['tex', 'bib']}
 Plug 'chase/vim-ansible-yaml'
 " {{{2 Text
 " {{{3 Markdown
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
+" Plug 'vim-pandoc/vim-pandoc'
+" Plug 'vim-pandoc/vim-pandoc-syntax'
 " Plug 'fmoralesc/vim-pad'
+Plug 'plasticboy/vim-markdown'
 
 
 " {{{3 univeral text linking
@@ -540,7 +541,7 @@ let g:choosewin_overlay_enable = 1
 let g:vim_json_syntax_conceal = 0
 
 " {{{2 Vim markdown
-let g:vim_markdown_folding_disabled=1
+" let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_math=1
 
 au FileType mkd,markdown nnoremap <buffer> <localleader>l :Toc<CR>
