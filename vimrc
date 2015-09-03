@@ -305,10 +305,10 @@ nnoremap [[ :lp<cr>
 " set colorcolumn=85
 
 " {{{2 Move on actual vim lines rather than the file lines
-nnoremap j gj
-vnoremap j gj
-nnoremap k gk
-vnoremap k gk
+" nnoremap j gj
+" vnoremap j gj
+" nnoremap k gk
+" vnoremap k gk
 
 " {{{2 Reselect visual block after indent/outdent
 vnoremap < <gv
