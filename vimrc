@@ -652,16 +652,6 @@ vmap <Enter> <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 " {{{2 Completion
-" " make YCM compatible with UltiSnips (using supertab)
-" let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-" let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-" let g:SuperTabDefaultCompletionType = '<C-n>'
-"
-" " better key bindings for UltiSnipsExpandTrigger
-" let g:UltiSnipsExpandTrigger = "<tab>"
-" let g:UltiSnipsJumpForwardTrigger = "<tab>"
-" let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-
 let g:ycm_dont_warn_on_startup = 0
 let g:ycm_complete_in_comments = 1
 let g:ycm_complete_in_strings = 1
@@ -678,6 +668,12 @@ let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
 
 let g:SuperTabDefaultCompletionType    = '<C-n>'
 let g:SuperTabCrMapping                = 0
+
+autocmd FileType tex 
+      \if &omnifunc != '' |
+      \call SuperTabChain(&omnifunc, "<c-n>") |
+      \call SuperTabSetDefaultCompletionType("<c-x><c-o>") |
+      \endif
 
 "----------------------------------------
 " UltiSnips - Fancy snippet functionality
