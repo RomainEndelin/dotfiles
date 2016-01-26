@@ -31,7 +31,7 @@ Plug 'RomainEndelin/fusion.vim'
 " {{{3 Fuzzy file finder
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'sgur/ctrlp-extensions.vim'
-Plug 'tacahiroy/ctrlp-funky'
+" Plug 'tacahiroy/ctrlp-funky'
 " {{{2 Technical
 " {{{3 Unite!
 Plug 'Shougo/unite.vim'
@@ -67,6 +67,8 @@ Plug 'milkypostman/vim-togglelist'
 Plug 'sanford1/unite-unicode'
 " {{{3 Visualize the undo tree
 Plug 'sjl/gundo.vim'
+" {{{3 Send to Instacode
+Plug 'mattr555/vim-instacode'
 " {{{2 Color schemes
 " {{{3 solarized theme
 Plug 'altercation/vim-colors-solarized'
@@ -195,7 +197,7 @@ Plug 'utl.vim'
 " {{{ Light correction
 Plug 'reedes/vim-litecorrect'
 " {{{3 Outliner
-Plug 'vimoutliner/vimoutliner', {'for': 'votl'}
+Plug 'RomainEndelin/vimoutliner', {'for': 'votl'}
 " {{{2 Productivity
 " {{{3 Vim-Taskwarrior
 Plug 'farseer90718/vim-taskwarrior'
@@ -711,7 +713,7 @@ endif
 nnoremap <C-o> :CtrlPBuffer<cr>
 
 nnoremap <leader>y :CtrlPYankring<cr>
-nnoremap <C-]> :CtrlPFunky<cr>
+" nnoremap <C-]> :CtrlPFunky<cr>
 
 " {{{2 CoVim
 let CoVim_default_name = "kilik"
@@ -733,6 +735,3 @@ nnoremap <Leader><S-c> :Unite colorscheme<CR>
 " {{{1 File specific
 
 autocmd BufRead ~/1_current/thesis/outline/thesis_outline.otl nnoremap <buffer> <leader>ll :!thesis_otl2pdf % master.tex<cr><cr>
-autocmd BufRead,BufNewFile ~/1_current/thesis/{**/,}*.tex let g:LatexBox_jobname='thesis'
-autocmd BufRead,BufNewFile ~/1_current/thesis/{**/,}*.tex let g:LatexBox_build_dir='build'
-autocmd BufRead,BufNewFile ~/1_current/thesis/{**/,}*.tex abbreviate ddd \todo{
