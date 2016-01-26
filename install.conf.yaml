@@ -23,6 +23,7 @@
     ~/.config/base16-shell: base16-shell/
     ~/.config/btsync: btsync/
     ~/.config/dunst: dunst/
+    ~/.config/nvim: nvim/
     ~/.gitconfig: gitconfig
     ~/.zprezto: zprezto/
     ~/.zpreztorc: zprezto/runcoms/zpreztorc

@@ -2,6 +2,9 @@ vim/.netrwhist
 vim/bundle
 vim/autoload
 vim/bundle
+nvim/plugged
+nvim/autoload
 awesome/wallpapers
 mpd/*
 !mpd/mpd.conf
+*~
