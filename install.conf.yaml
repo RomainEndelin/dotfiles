@@ -8,6 +8,7 @@
     ~/.dircolors: dircolors
     ~/.rvmrc: rvmrc
     ~/.tmux: tmux/
+    ~/scripts: scripts/
     ~/.ncmpcpp: ncmpcpp/
     ~/.fonts: fonts/
     ~/.config/termite: termite/
