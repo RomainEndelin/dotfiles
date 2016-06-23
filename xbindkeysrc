@@ -46,9 +46,9 @@
 # "xterm"
 #   c:41 + m:0x4
 
-# specify a mouse button
-"urxvt"
-  control + b:2
+# # specify a mouse button
+# "urxvt"
+#   control + b:2
 
 #"xterm -geom 50x20+20+20"
 #   Shift+Mod2+alt + s
@@ -65,17 +65,17 @@
 #"rxvt"
 #  Control + b:2 + Release
 
-# Increase volume
-"pamixer --increase 5"
-  XF86AudioRaiseVolume
-
-# Decrease volume
-"pamixer --decrease 5"
-  XF86AudioLowerVolume
-
-# Mute/Unmute
-"pamixer --toggle-mute"
-  XF86AudioMute
+# # Increase volume
+# "pamixer --increase 5"
+#   XF86AudioRaiseVolume
+#
+# # Decrease volume
+# "pamixer --decrease 5"
+#   XF86AudioLowerVolume
+#
+# # Mute/Unmute
+# "pamixer --toggle-mute"
+#   XF86AudioMute
 
 # Enable / Disable Redshift
 

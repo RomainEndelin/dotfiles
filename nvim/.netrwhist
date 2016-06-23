@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/kilik/1_current/treehouse/ruby/sample_app/test'
+let g:netrw_dirhist_2='/home/kilik/1_current/treehouse/ruby/sample_app/.bundle'
+let g:netrw_dirhist_3='/home/kilik/1_current/ubismart/views/servicesRepository/life'
+let g:netrw_dirhist_4='/home/kilik/1_current/ubismart/views/servicesRepository/senslog'
+let g:netrw_dirhist_5='/home/kilik/1_current/ubismart/ubi/services/repository/lib'
+let g:netrw_dirhist_6='/home/kilik/.tmuxinator'

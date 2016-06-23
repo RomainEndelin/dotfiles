@@ -26,6 +26,8 @@ xrdb -merge ~/.Xresources
 
 xbindkeys &
 
+nm-applet &
+
 dunst &
 
 redshift &
