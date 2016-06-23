@@ -13,6 +13,8 @@
     ~/.config/termite: termite/
     ~/.config/base16-shell: base16-shell/
     ~/.config/nvim: nvim/
+    ~/.config/i3blocks: i3blocks/
+    ~/.config/i3: i3/
     ~/.gitconfig: gitconfig
     ~/.zprezto: zprezto/
     ~/.zpreztorc: zprezto/runcoms/zpreztorc
